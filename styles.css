@@ -1,0 +1,68 @@
+.site-header, .site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.layout{
+    max-width: 800px;
+    margin: 5px auto;
+    padding: 20px;
+    display: flex;
+    gap: 16px;
+    background: blue;
+    border: 5px solid black;
+}
+
+.site-article {
+    flex: 3;
+    background: #e9e9e9;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.site-nav {
+    flex: 1;
+    background-color: #e9e9e9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-aside {
+    flex: 1;
+    background-color: #e9e9e9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.site-article > header, .site-article > footer {
+    background-color: #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.site-aside > section {
+    margin-bottom: 20px;
+    background-color: #ddd;
+    padding: 10px;
+    color: #fff;
+    border: 6px solid #ccc;
+    text-align: center;
+}
+
+.site-footer {
+    margin-top: 20px;
+}
